@@ -1,6 +1,6 @@
 <p style="color: green"><%= notice %></p>
 
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 50rem;">
   
   <div class="card-body">
     <h5 class="card-title">Friend Information </h5>
@@ -12,13 +12,13 @@
     <%= @friend.last_name %></li>
     <li class="list-group-item">    <strong>Email:</strong>
     <%= @friend.email %></li>
-       <li class="list-group-item">  </li>
+
        <li class="list-group-item">    <strong>Email:</strong>
     <%= @friend.email %></li>
   </ul>
   <div class="card-body">
-      <%= link_to "Edit ", edit_friend_path(@friend), class: "btn btn-secondary" %> |
-        <%= link_to "Back ", friends_path, class: "btn btn-primary" %>
+      <%= link_to "Edit ", edit_friend_path(@friend), class: "btn btn-secondary" %> 
+        <%= link_to "Back ", friends_path, class: "btn btn-primary mx-3" %>
     
   </div>
 </div>
